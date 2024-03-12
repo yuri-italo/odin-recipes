@@ -1,0 +1,31 @@
+body {
+  background-color: #faf6ed;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  color: #e54;
+}
+
+h2 {
+  color: #fb5;
+}
+
+p {
+  font-size: 24px;
+}
+
+ul {
+  list-style: square;
+}
+
+li a {
+  color: #fb5;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #e54;
+  text-decoration: underline;
+  transition: 0.5s;
+}
