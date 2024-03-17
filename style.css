@@ -1,3 +1,14 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #faf6ed;
   font-family: "Courier New", Courier, monospace;
@@ -5,10 +16,13 @@ body {
 
 h1 {
   color: #e54;
+  font-size: 3rem;
+  margin-bottom: 15px;
 }
 
 h2 {
   color: #fb5;
+  font-size: 1.5rem;
 }
 
 p {
@@ -16,7 +30,7 @@ p {
 }
 
 ul {
-  list-style: square;
+  list-style: none;
 }
 
 li a {
@@ -28,4 +42,14 @@ li a:hover {
   color: #e54;
   text-decoration: underline;
   transition: 0.5s;
+}
+
+.main-container {
+  max-width: 960px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.recipes-list {
+  font-size: 1.5rem;
 }
